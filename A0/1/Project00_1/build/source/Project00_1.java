@@ -17,19 +17,28 @@ public class Project00_1 extends PApplet {
 //Constant of the window size
 final int WINDOW_WIDTH = 640;
 final int WINDOW_HEIGHT = 480;
+//Radius of the circle
+int circleRadius = 50;
 
-final int circleRadius = 50;
-
+//Setup the program
 public void setup(){
 
+  //Create the window
   
+  //Set background to white
   background(255);
 
-  int circleX = (WINDOW_WIDTH/2) ;
-  int circleY = (WINDOW_HEIGHT/2); 
+  //Get mid point of the window
+  int circleX = (WINDOW_WIDTH/2);
+  int circleY = (WINDOW_HEIGHT/2);
+
+  //Set fill color
   fill(0, 0, 200);
+  //Set stroke color
   stroke(0, 200, 0);
+  //Set stroke weight
   strokeWeight(3);
+  //Draw circle
   ellipse(circleX, circleY, circleRadius * 2, circleRadius * 2);
 }
   public void settings() {  size(640, 480); }

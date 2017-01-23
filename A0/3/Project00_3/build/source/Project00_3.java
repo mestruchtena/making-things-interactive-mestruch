@@ -61,14 +61,17 @@ public PVector movePositionWithSpeed( PVector currentPosition, PVector finalPosi
   //Get default vector to compute angle
   PVector vector1 = new PVector(10, 0);
   PVector vector2 = new PVector(finalPosition.x - currentPosition.x, finalPosition.y - currentPosition.y);
+  //Compute angle between the vectors
   float angle = PVector.angleBetween(vector1, vector2);
 
+  //Fix angle for all the positions of the final position against the initial position
   if (vector2.y < 0){
     angle *= -1;
   }
+  //Move position towards the final position with the computed angle
   currentPosition.x += speed * (float) cos(angle);
   currentPosition.y += speed * (float) sin(angle);
-
+  //Return position
   return currentPosition;
 }
   public void settings() {  size(640, 480); }
