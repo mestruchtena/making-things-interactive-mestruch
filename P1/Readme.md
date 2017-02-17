@@ -48,20 +48,24 @@ This repository contains the Arduino code that makes this device work. It is ext
 
 
 2. Creating the box
-··- Acrylic One Way mirror
+
+Acrylic One Way mirror
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_before.jpg?raw=true)
-··- Create plans for the box
-![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Plan_Box.svg?raw=true)
-··- Assembled box after Laser Cut the acrylic
+Create plans for the box
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/plan_box.jpg?raw=true)
+Assembled box after Laser Cut the acrylic
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_after.jpg?raw=true)
 
 
 3. 3D model Base
-··- Modeling the base (Used Fusion 360)
+
+Modeling the base (Used Fusion 360)
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_model.jpg?raw=true)
-··- 3D print (used )
+
+3D print (used )
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print.jpg?raw=true)
-··- Refine the print (Sand it if needed)
+
+Refine the print (Sand it if needed)
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print_base.jpg?raw=true)
 
 4. Prototype using breadboard
