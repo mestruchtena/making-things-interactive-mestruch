@@ -36,12 +36,51 @@ This repository contains the Arduino code that makes this device work. It is ext
 1. Plug the box by the USB cable or the AC adaptor.
 2. Record your pulse by pressing the button. 5 pulses need to be detected consecutively to record the pulse.
 3. If the record has been successful, the LED will blink twice fast. If it has not been successful, the LED's will blink once long and twice short.
-4. Now that the heartbeat is saved. Every time the device detects some motion around, it will reproduce the heartbeat. 
+4. Now that the heartbeat is saved. Every time the device detects some motion around, it will reproduce the heartbeat.
 
 
 
 ## How it has been made
+### Process Images
 
+1. Final Product
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
+
+
+2. Creating the box
+··- Acrylic One Way mirror
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_before.jpg?raw=true)
+··- Create plans for the box
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Plan_Box.svg?raw=true)
+··- Assembled box after Laser Cut the acrylic
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_after.jpg?raw=true)
+
+
+3. 3D model Base
+··- Modeling the base (Used Fusion 360)
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_model.jpg?raw=true)
+··- 3D print (used )
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print.jpg?raw=true)
+··- Refine the print (Sand it if needed)
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print_base.jpg?raw=true)
+
+4. Prototype using breadboard
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Prototype_circuit.jpg?raw=true)
+
+5. Coding the logic
+
+6. Assemble Arduino to base
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Added to base.jpg?raw=true)
+
+7. Attach Motion sensor to the box
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Box_motion_sensor.jpg?raw=true)
+
+8. Attach box with the base
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
+
+
+
+### Process Video
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/process_gif.gif?raw=true)
 
 ## Future work
