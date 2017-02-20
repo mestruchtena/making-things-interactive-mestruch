@@ -1,6 +1,6 @@
 
 # Heartbeat Lamp Box
-![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/final_image.jpg?raw=true)
 
 This is the first project for the Making Things Interactive class at Carnegie Mellon University. It contains the Arduino code to run the object, as well as the process images to create it.
 
