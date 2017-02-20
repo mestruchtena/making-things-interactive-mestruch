@@ -1,5 +1,6 @@
 
 # Heartbeat Lamp Box
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
 
 This is the first project for the Making Things Interactive class at Carnegie Mellon University. It contains the Arduino code to run the object, as well as the process images to create it.
 
@@ -43,43 +44,54 @@ This repository contains the Arduino code that makes this device work. It is ext
 ## How it has been made
 ### Process Images
 
-1. Final Product
-![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
+**1. Creating the box**
 
-
-2. Creating the box
-
-Acrylic One Way mirror
+Acrylic One Way mirror: Choose any material you want to use to create the box
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_before.jpg?raw=true)
-Create plans for the box
+
+Create plans for the box: In this case the following website (http://www.makercase.com) has been used to create the 100mmX100mm box template with a 0.4mm Kerf.
+
+We don't need the bottom, so we remove that part after creating the template and we add a hole on top that we will use to add the motion sensor.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/plan_box.jpg?raw=true)
-Assembled box after Laser Cut the acrylic
+
+Assembled box after Laser Cut the acrylic. As we have added some kerf on our design, we don't need to use any glue to assemble it.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Acrylic_after.jpg?raw=true)
 
 
-3. 3D model Base
+**2. 3D model Base**
 
-Modeling the base (Used Fusion 360)
+Model the base (I used Autodesk Fusion 360). The base can be customized to everyone's needs. In this case, added holes in one side for the Arduino connectors and the SD card. And on the other side, to add a button and the cable from the PulseSensor.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_model.jpg?raw=true)
 
-3D print (used )
+3D print. Any 3D printer technique would work. In this case a PLA filament has been used with a 0.4mm layer height to reduce time.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print.jpg?raw=true)
 
-Refine the print (Sand it if needed)
+Refine the print. I sanded some parts to remove some of the imperfections.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/3D_print_base.jpg?raw=true)
 
-4. Prototype using breadboard
+**3. Prototype using breadboard**
+I used a breadboard to connect all the sensors and make sure the system works before soldering it.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Prototype_circuit.jpg?raw=true)
 
-5. Coding the logic
+**4. Coding the logic**
+Starting from the PulseSensor code base, I added the logic that detects 5 beats when a button is pressed and then save them. If the 5 beats have been detected and saved, it will show an specific LED blinking (1 long and 2 shorts). If the beats have not been detected, it will show 3 short blinks.
 
-6. Assemble Arduino to base
+Finally, using a motion sensor, it will show those heartbeats with the LEDs when a motion is detected.
+![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/coding.jpg?raw=true)
+
+**5. Assemble Arduino to base**
+
+Once we know our code and circuit works, we solder it to our base. In this case we use the prototyping part our data logging shield has.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Added to base.jpg?raw=true)
 
-7. Attach Motion sensor to the box
+**6. Attach Motion sensor to the box**
+
+I glued the motion sensor to the hole we previously did to the box.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Box_motion_sensor.jpg?raw=true)
 
-8. Attach box with the base
+**7. Attach box with the base**
+
+Once we have all the parts together, we just add fit the box to our base.
 ![alt tag](https://github.com/mestruchtena/making-things-interactive-mestruch/blob/master/P1/Process_images/Base_box_motion_sensor.jpg?raw=true)
 
 
